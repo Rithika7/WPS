@@ -1,0 +1,44 @@
+
+body{
+    
+    background-image: url(House.jpg);
+    background-size: cover;
+}
+
+.two ul{
+    float: left;
+    list-style-type: none;
+}
+ul li{
+    display:inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid white;
+}
+.one ul{
+    float: right;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main{
+    padding-top: 50px ;
+}
+.main h1{
+color: white;
+text-align: center;
+font-size: 50px;
+}
+input[type=text]{
+    width: 50%;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
